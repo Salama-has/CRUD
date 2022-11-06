@@ -1,0 +1,25 @@
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 6px;
+    font: bold 14px verdana, sans-serif;
+    color: #8ecae6;
+    border: 1px solid;
+    transition: border-bottom 180ms;
+    cursor: pointer;
+}
+input{
+    width: 30%;
+}
+.tablaLibros thead{
+    background-color: #016b9f;
+}
+.tablaLibros tbody{
+    background-color: #8ecae6;
+}
+#menu{
+    min-width: 100%;
+}
+.tablaLibros {
+    min-width: 100%;
+}

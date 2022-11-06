@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="menu">
+      <ul>
+        <li id="bGrabar">Grabar</li>
+        <li id="bModificar">Modificar</li>
+        <li id="bBorrar">Borrar</li>
+        <li id="bSiguiente">Siguiente</li>
+        <li id="bAnterior">Anterior</li>
+        <li id="bTabla">Tabla</li>
+      </ul>
+    </nav>
+    <table style="width: 100%">
+      <tr>
+        <td style="width: 146px">name</td>
+        <td>
+          <input id="name" type="text" value="" />
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 146px; height: 26px">price</td>
+        <td style="height: 26px">
+          <input id="price" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 146px">description</td>
+        <td>
+          <input id="description" type="text" />
+        </td>
+      </tr>
+      <tr>
+        <td style="width: 146px">calories</td>
+        <td>
+          <input id="calories" type="text" />
+        </td>
+      </tr>
+    </table>
+    <table class="tablaLibros" id="tabla">
+      <thead>
+        <tr>
+          <th style="height: 25px">name</th>
+          <th style="height: 25px">price</th>
+          <th style="height: 25px">description</th>
+          <th style=" height: 25px">calories</th>
+        </tr>
+      </thead>
+      <tbody id="cuerpo"></tbody>
+    </table>
+    <script src="buttons.js"></script>
+    <script src="datos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
